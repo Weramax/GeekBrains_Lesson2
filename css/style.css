@@ -1,8 +1,5 @@
-h1{
+h1, h2{
     text-align: center;
-}
-h2{
-    text-align: center
 }
 
 body{
@@ -13,70 +10,70 @@ table{
     text-align: justify;
 }
 
-#header .menu{
+.header .menu{
     margin: 50px 0 0 260px;
 }
-#header .menu li{
+.header .menu li{
     display: inline;
     padding-left: 50px;
 }
-#header .menu A{
+.header .menu A{
     text-decoration: none;
 }
-#header .menu ul li.active a{
+.header .menu ul li.active a{
     color:red;
 }
-#header .menu A:hover{
+.header .menu A:hover{
     color: red;
 }
 
-#center .Main_page img{
+.main .Main_page img{
     width: 100%;
 }
-#center .Main_page p{
+.main .Main_page p{
     text-align: justify;
     font-size: 15pt;
 
 }
-#center .Katalog{
+.main .Katalog{
     margin: 0 auto;
     border-spacing: 30px 20px;
 }
-#center .Katalog td{
+.main .Katalog td{
     width: 210px;
     height: 250px;
     text-align: center;
 }
-#center .Katalog img{
+.main .Katalog img{
     width: 160px;
     height: 160px;
 }
-#center .About_product li{
+.main .About_product li{
     list-style-type: square;
     padding-top: 3px;
 }
-#center .message_form fieldset{
+.main .message_form fieldset{
     text-align: center;
     border: 0px;
 }
-#center .message_form fieldset div{
+.main .message_form fieldset div{
    margin-top: 10px;
 }
-#center .message_form fieldset input{
+.main .message_form fieldset input{
     width: 500px;
 }
-#center .message_form fieldset textarea{
+.main .message_form fieldset textarea{
     width: 500px;
 }
-#center .message_form fieldset input[type="submit"]{
+.main .message_form fieldset input[type="submit"]{
     width: 100px;
 }
-#center .Contacts li{
+.main .Contacts li{
     list-style-type: none;
 }
 
 
 
-#footer p{
+.footer p{
     text-align: right;
 }
