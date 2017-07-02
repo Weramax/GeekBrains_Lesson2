@@ -1,0 +1,82 @@
+h1{
+    text-align: center;
+}
+h2{
+    text-align: center
+}
+
+body{
+    width: 1000px;
+    margin: 0 auto;
+}
+table{
+    text-align: justify;
+}
+
+#header .menu{
+    margin: 50px 0 0 260px;
+}
+#header .menu li{
+    display: inline;
+    padding-left: 50px;
+}
+#header .menu A{
+    text-decoration: none;
+}
+#header .menu ul li.active a{
+    color:red;
+}
+#header .menu A:hover{
+    color: red;
+}
+
+#center .Main_page img{
+    width: 100%;
+}
+#center .Main_page p{
+    text-align: justify;
+    font-size: 15pt;
+
+}
+#center .Katalog{
+    margin: 0 auto;
+    border-spacing: 30px 20px;
+}
+#center .Katalog td{
+    width: 210px;
+    height: 250px;
+    text-align: center;
+}
+#center .Katalog img{
+    width: 160px;
+    height: 160px;
+}
+#center .About_product li{
+    list-style-type: square;
+    padding-top: 3px;
+}
+#center .message_form fieldset{
+    text-align: center;
+    border: 0px;
+}
+#center .message_form fieldset div{
+   margin-top: 10px;
+}
+#center .message_form fieldset input{
+    width: 500px;
+}
+#center .message_form fieldset textarea{
+    width: 500px;
+}
+#center .message_form fieldset input[type="submit"]{
+    width: 100px;
+}
+#center .Contacts li{
+    list-style-type: none;
+}
+
+
+
+#footer p{
+    text-align: right;
+}
