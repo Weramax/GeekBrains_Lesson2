@@ -25,9 +25,7 @@ table{
 .header .menu a:hover{
     color: red;
 }
-.header .menu a:active{
-    color:red;
-}
+
 
 
 .main .Main_page img{
@@ -89,15 +87,41 @@ table{
 }
 .main .message_form fieldset input{
     width: 500px;
+    border-radius: 20px;
+    padding-left: 5px;
+    color: darkslategray;
+    font-family: cursive;
+    font-size: 15px;
+}
+.main .message_form fieldset input::-webkit-input-placeholder{
+    color: dimgrey;
+    font-family: cursive;
+}
+.main .message_form fieldset textarea::-webkit-input-placeholder{
+    color: dimgrey;
+    font-family: cursive;
 }
 .main .message_form fieldset textarea{
     width: 500px;
+    border-radius: 20px;
+    padding-left: 10px;
+    color: dimgrey;
+    font-family: cursive;
+    font-size: 15px;
+
 }
 .main .message_form fieldset input[type="submit"]{
-    width: 100px;
+    width: 150px;
+    height: 30px;
+    color: dimgrey;
+    font-family: cursive;
+    font-size: 18px;
 }
 .main .Contacts li{
     list-style-type: none;
+}
+.main .Survey_input{
+
 }
 
 
