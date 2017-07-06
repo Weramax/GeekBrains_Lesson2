@@ -1,91 +1,108 @@
-h1, h2{
+h1,
+h2 {
     text-align: center;
 }
-body{
+
+body {
     width: 1000px;
     margin: 0 auto;
     background-color: #f8f8f8;
 }
-table{
+
+table {
     text-align: justify;
 }
-.header .menu{
+
+.header .menu {
     margin: 50px 0 0 260px;
 }
-.header .menu li{
+
+.header .menu li {
     display: inline;
     padding-left: 43px;
 }
-.header .menu a{
+
+.header .menu a {
     text-decoration: none;
     color: darkgrey;
     font-size: 20px;
     font-family: cursive;
 }
-.header .menu a:hover{
+
+.header .menu a:hover {
     color: red;
 }
 
-
-
-.main .Main_page img{
+.main .Main_page img {
     width: 100%;
 }
-.main .Main_page p{
+
+.main .Main_page p {
     text-align: justify;
     font-size: 15pt;
-
 }
-.main .Katalog{
+
+.main .Katalog {
     margin: 0 auto;
     border-spacing: 30px 20px;
 }
-.main .Katalog td{
+
+.main .Katalog td {
     width: 210px;
     height: 250px;
     text-align: center;
 }
-.main .Katalog img{
+
+.main .Katalog img {
     width: 160px;
     height: 160px;
 }
-.main .About_product li{
+
+.main .About_product li {
     list-style-type: none;
 }
-.main .About_product li:before{
+
+.main .About_product li:before {
     content: "֍ ";
     padding-right: 4px;
 }
-.main .About_product h3{
+
+.main .About_product h3 {
     color: #000;
     font-size: 18px;
     font-weight: 400;
     background: #eaeaea;
 }
-.main .About_product img{
+
+.main .About_product img {
     border: 6px solid red;
 }
-.main .About_product .brief_description{
+
+.main .About_product .brief_description {
     color: #707070;
     font-size: 14px;
     font-style: italic;
     line-height: 16px;
 }
-.main .About_product .full_description{
+
+.main .About_product .full_description {
     color: #484343;
     font-size: 16px;
     font-weight: 400;
     line-height: 24px;
     text-align: left;
 }
-.main .message_form fieldset{
+
+.main .message_form fieldset {
     text-align: center;
     border: 0px;
 }
-.main .message_form fieldset div{
-   margin-top: 10px;
+
+.main .message_form fieldset div {
+    margin-top: 10px;
 }
-.main .message_form fieldset input{
+
+.main .message_form fieldset input {
     width: 500px;
     border-radius: 20px;
     padding-left: 5px;
@@ -93,39 +110,38 @@ table{
     font-family: cursive;
     font-size: 15px;
 }
-.main .message_form fieldset input::-webkit-input-placeholder{
+
+.main .message_form fieldset input::-webkit-input-placeholder {
     color: dimgrey;
     font-family: cursive;
 }
-.main .message_form fieldset textarea::-webkit-input-placeholder{
+
+.main .message_form fieldset textarea::-webkit-input-placeholder {
     color: dimgrey;
     font-family: cursive;
 }
-.main .message_form fieldset textarea{
+
+.main .message_form fieldset textarea {
     width: 500px;
     border-radius: 20px;
     padding-left: 10px;
     color: dimgrey;
     font-family: cursive;
     font-size: 15px;
-
 }
-.main .message_form fieldset input[type="submit"]{
+
+.main .message_form fieldset input[type="submit"] {
     width: 150px;
     height: 30px;
     color: dimgrey;
     font-family: cursive;
     font-size: 18px;
 }
-.main .Contacts li{
+
+.main .Contacts li {
     list-style-type: none;
 }
-.main .Survey_input{
 
-}
-
-
-
-.footer p{
+.footer p {
     text-align: right;
 }
