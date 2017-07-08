@@ -58,15 +58,6 @@ table {
     height: 160px;
 }
 
-.main .About_product li {
-    list-style-type: none;
-}
-
-.main .About_product li:before {
-    content: "֍ ";
-    padding-right: 4px;
-}
-
 .main .About_product h3 {
     color: #000;
     font-size: 18px;
@@ -75,7 +66,14 @@ table {
 }
 
 .main .About_product img {
-    border: 6px solid red;
+    border: 3px solid red;
+
+}
+
+.main .About_product img:hover {
+    border: 0px;
+    width: 376.48px;
+    height: 486px;
 }
 
 .main .About_product .brief_description {
@@ -91,6 +89,11 @@ table {
     font-weight: 400;
     line-height: 24px;
     text-align: left;
+}
+.main .About_product p:first-letter{
+    font-size: 25px;
+    color: red;
+    font-style: italic;
 }
 
 .main .message_form fieldset {
@@ -109,6 +112,7 @@ table {
     color: darkslategray;
     font-family: cursive;
     font-size: 15px;
+    text-transform: capitalize;
 }
 
 .main .message_form fieldset input::-webkit-input-placeholder {
@@ -128,6 +132,7 @@ table {
     color: dimgrey;
     font-family: cursive;
     font-size: 15px;
+    text-transform: capitalize;
 }
 
 .main .message_form fieldset input[type="submit"] {
