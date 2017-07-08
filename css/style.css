@@ -13,6 +13,12 @@ table {
     text-align: justify;
 }
 
+.header .Logo img{
+    width: 150px;
+    height: 150px;
+    margin: 0 0 -144px 70px;
+}
+
 .header .menu {
     margin: 50px 0 0 260px;
 }
@@ -67,7 +73,6 @@ table {
 
 .main .About_product img {
     border: 3px solid red;
-
 }
 
 .main .About_product img:hover {
@@ -90,7 +95,8 @@ table {
     line-height: 24px;
     text-align: left;
 }
-.main .About_product p:first-letter{
+
+.main .About_product p:first-letter {
     font-size: 25px;
     color: red;
     font-style: italic;
@@ -150,3 +156,4 @@ table {
 .footer p {
     text-align: right;
 }
+
