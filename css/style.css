@@ -76,9 +76,8 @@ table {
 }
 
 .main .About_product img:hover {
-    border: 0px;
-    width: 376.48px;
-    height: 486px;
+   border: none;
+    margin: 3px;
 }
 
 .main .About_product .brief_description {
