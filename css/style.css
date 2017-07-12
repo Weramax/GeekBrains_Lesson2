@@ -13,6 +13,9 @@ table {
     text-align: justify;
 }
 
+.header {
+    height: 180px;
+}
 .header .Logo img {
     width: 150px;
     height: 150px;
@@ -20,7 +23,7 @@ table {
 }
 
 .header .menu {
-    margin: 50px 0 0 260px;
+    margin: 50px 0 0 250px;
 }
 
 .header .menu li {
@@ -57,6 +60,10 @@ table {
     width: 210px;
     height: 250px;
     text-align: center;
+}
+.main .Katalog a {
+    text-decoration: none;
+    font-size: 16px;
 }
 
 .main .Katalog img {
@@ -99,6 +106,33 @@ table {
     font-size: 25px;
     color: red;
     font-style: italic;
+}
+
+.main .About_product .order_product input[type="submit"] {
+    float: right;
+    width: 160px;
+    height: 40px;
+    border:solid 1px #d9d2d2;
+    border-radius: 13px;
+    font-family: cursive;
+    font-size: 18px;
+    font-style: italic;
+    outline: none;
+    text-decoration:none; text-align:center;
+    font-weight:bold;
+    color: #9e9898;
+    background:#eaeaea;
+    box-shadow: 0px 0px 20px 0px #eaeaea;
+}
+
+.main .About_product .order_product input[type="submit"]:hover {
+    box-shadow: 0px 0px 10px 2px red;
+}
+
+.main .About_product .order_product input[type="submit"]:active {
+    box-shadow: 0px 0px 10px 2px red inset;
+    color: red;
+    font-weight: 500;
 }
 
 .main .message_form fieldset {
@@ -152,6 +186,11 @@ table {
     list-style-type: none;
 }
 
+.footer {
+    height: 100px;
+}
+
 .footer p {
     text-align: right;
+    padding: 20px 20px 0 0;
 }
